@@ -2,15 +2,15 @@
 <html>
     <head>
         <!-- META -->
-        <meta name="Description" content="Portfolio de Sautein Anthony Webdesigner Stagiaire.">
-		<meta name="Keywords" content="Webdesigner Anthony Sautebin Stagiaire Portfolio work galerie">
+        <meta name="Description" content="Contactez Sautein Anthony Webdesigner Stagiaire.">
+		<meta name="Keywords" content="Webdesigner Anthony Sautebin Stagiaire Contact mail">
 		<meta name="Robots" content="all">
 		<meta name="Revisit-After" content="30 days">
 		<META HTTP-EQUIV="EXPIRES" CONTENT="Fri, 30 Mar 2017 12:00:00 GMT">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
-		<title>Sautebin Anthony - Portfolio</title>
+		<title>Sautebin Anthony - Contact</title>
         
         <!-- Favicon -->
         
@@ -56,65 +56,56 @@
                         <ul>
                             <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> ACCUEIL</a></li>
                             <li><a href="about.html">A PROPOS</a></li>
-                            <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
-                            <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="portfolio.html">PORTFOLIO</a></li>
+                            <li><a href="contact.html" class="active">CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>        
             </div>
-            <div id="b-nav-sub">
-                <nav id="nav-sub">
-                        <ul>
-                            <li><a href="#p-iv" class="active2">ALL</a></li>
-                            <li><a href="#p-iv">Identité Visuelle</a></li>
-                            <li><a href="#p-iv">Webdesign</a></li>
-                            <li><a href="#p-iv">Site Web</a></li>
-                        </ul>
-                    </nav>
+            <div id="top-imga">
+                <!--<figure>-->
+                    <img src="images/headercontact.png" height="200" width="1374" alt="" />
+                <!--</figure>-->
             </div>
         </header>
         
-        <section id="s-portfolio">
-            <article id="p-iv">
-                <h2>Identité Visuelle</h2>
-                <div class="p-box">
-                </div>
-            </article>
-            <article id="p-webd">
-                <h2>Webdesign</h2>
-                <div class="p-box">
-                </div>
-            </article>
-            <article id="p-sitew">
-                <h2>Site Web</h2>
-                <div class="p-box">
-                    <a href="https://github.com/AnthonyAES/Projet1OFP" target="_blank">
-                    <div class="container-img">
-                        <img src="images/portfolio/Projet1Mockup.png" width="275px" height="171px" alt="vignette projet 1">
-                        <div class="overlay">
-                            <div class="text">
-                                <h4>Projet 1</h4>
-                                <p>OnlineFormaPro</p>
-                            </div>
+        <section id="s-contact">
+            <article id="contact">
+                <div class="content">
+                    <h2>Contact</h2>
+                    <form method="post" action="mailto:asautebin.pro@gmail.com">
+                        <div id="f-form">
+                            <h3>Formulaire de contact</h3>
+                            <label for="fullname">Votre Nom*</label>
+                            <input type="text" name="full name" required>
+                            <label for="email">Votre Email*</label>
+                            <input type="text" name="email" required>
+                            <label for="subject">Sujet*</label>
+                            <input type="text" name="subject" required>
                         </div>
-                    </div>
-                    </a>
-                </div>
-                
-                <div class="p-box">
-                    <a href="https://github.com/AnthonyAES/ProjetNCAM" target="_blank">
-                    <div class="container-img">
-                        <img src="images/portfolio/Projet2Mockup.png" width="275px" height="171px" alt="vignette projet 1">
-                        <div class="overlay">
-                            <div class="text">
-                                <h4>Projet 2</h4>
-                                <p>OnlineFormaPro</p>
-                            </div>
+                        <div id="f-coor">
+                            <h3>MES COORDONNÉES</h3>
+                            <p><span class="f-cord">Mobilité:</span> Franche-Comtés</p>
+                            <p><span class="f-cord">E-Mail:</span> asautebin.pro@gmail.com</p>
+                            
+                            <h3>MES RÉSEAUX SOCIAUX</h3>
+                            <nav id="c-social">
+                                <ul>
+                                    <li><a href="http://www.twitter.com/TBLKDesign" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                                    <li><a href="http://anthonys-tblk.tumblr.com/" target="_blank"><i class="fa fa-tumblr" aria-hidden="true"></i> Tumblr</a></li>
+                                    <li><a href="https://dribbble.com/TBLK" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i> Dribble</a></li>
+                                    <li><a href="https://www.behance.net/asautebinp3350" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i> Behance</a></li>
+                                    <li><a href="https://fr.pinterest.com/sautebinanthony/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i> Pinterest</a></li>
+                                </ul>
+                            </nav>
                         </div>
-                    </div>
-                    </a>
+                        <div id="f-mess">
+                            <label for="message">Message*</label>
+                            <textarea name="message" id="message" rows="11" cols="60" required ></textarea>
+                            <input type="submit" value="ENVOYER" />
+                        </div>
+                    </form>
                 </div>
-                
             </article>
         </section>
         
