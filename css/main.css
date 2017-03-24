@@ -331,6 +331,16 @@ h2 {
 
 /* ------------ COMPETENCES ------------ */
 
+.triangle-comp {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    border-style: solid;
+    border-width: 21px 21px 0 21px;
+    border-color: #d8e0e9 transparent transparent transparent;
+}
+
 #comp {
     background-color: #393d3f;
     color: #f7f0f0;
@@ -396,16 +406,6 @@ h2 {
     background-color:#2980b9; 
 }
 
-#comp > img {
-    width:44px;
-    height: 21px;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    left: 300px;
-    
-}
-
 /* ------------ ABOUT ------------ */
 
 #box-about {
@@ -446,6 +446,12 @@ h2 {
     width: 100%;
     margin:0px 0px 34px 0px;
     font-size: 30pt;
+}
+
+.box-lastc {
+    width: 275px;
+    height: 171px;
+    border: 1px solid rgba(57, 61, 63, 0.06);
 }
 
 .box-lastc > img {
@@ -713,8 +719,8 @@ footer > p {
 
 .container-img {
   position: relative;
-    height: 170px;
-    width: 273px;
+    height: 171px;
+    width: 275px;
     text-align: center;
 }
 
