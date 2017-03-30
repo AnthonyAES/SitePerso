@@ -720,7 +720,7 @@ footer > p {
 .container-img {
   position: relative;
     height: 171px;
-    width: 275px;
+    width: 273px;
     text-align: center;
 }
 
@@ -749,6 +749,7 @@ footer > p {
 .overlay h4 {
     margin: 0;
     padding: 0;
+    width: 273px;
 }
 
 .overlay p {
