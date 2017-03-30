@@ -724,6 +724,10 @@ footer > p {
     text-align: center;
 }
 
+.box-lastc .container-img {
+    width: 275px;
+}
+
 .p-box > a > .container-img > img {
     height: 170px;
     width: 273px;
