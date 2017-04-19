@@ -82,10 +82,20 @@
                 </div>        
             </div>
             <div id="top-imga">
-                <!--<figure>-->
                     <img src="images/headercontact.png" height="200" width="1374" alt="" />
-                <!--</figure>-->
             </div>
+            <dropdown>
+                  <ul>
+                      <li id="onclick" onclick="menu();" > Menu 
+                          <ul id="menulist">
+                            <li><a href="index.html">ACCUEIL</a></li>
+                            <li><a href="about.html">A PROPOS</a></li>
+                            <li><a href="portfolio.html">PORTFOLIO</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                          </ul>
+                      </li>
+                  </ul>  
+                </dropdown>
         </header>
         
         <section id="s-contact">
@@ -132,5 +142,8 @@
             <div id="button"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
             <p>Copyright 2017 - Sautebin Anthony - Webdesigner Graphiste</p>
         </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/onclick.js"></script>
     </body>
 </html>
