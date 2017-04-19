@@ -1012,7 +1012,7 @@ dropdown {
         height: 50px;
     }
     
-      #menulist > li:nth-child(even), #menulist > li > a:nth-child(even) {
+    #menulist > li:nth-child(even), #menulist > li > a:nth-child(even) {
         background-color: #393d3f;
     }
     
@@ -1031,7 +1031,7 @@ dropdown {
     }
     
     footer > p {
-        font-size: 8pt;
+        font-size: 6pt;
     }
     
     #services > .content, #comp > .content {
@@ -1224,7 +1224,7 @@ dropdown {
     }
     
     footer > p {
-        font-size: 8pt;
+        font-size:8pt;
     }
     
     #services > .content, #comp > .content {
