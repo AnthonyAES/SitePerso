@@ -923,6 +923,9 @@ input[type="submit"]:hover {
     display: none;
 }
 
+#s-portfolio > article.dontshow {
+    display: none;
+}
 
 
 /* -------------------------- Responsive ------------------------ */
