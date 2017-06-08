@@ -1,3 +1,3 @@
 # SitePerso
 
-<a href="http://www.anthonysautebin.fr">http://www.anthonysautebin.fr</a>
+<a href="http://www.anthonysautebin.fr" target="_blank">http://www.anthonysautebin.fr</a>
