@@ -1,0 +1,98 @@
+/*!
+ * Styles intended only for this demo page. If you want to
+ * try and use Avgrund in your project, don't include these.
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+html {
+	background-color: #222;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=);
+	background-repeat: repeat;
+}
+
+.avgrund-popup h1,
+.avgrund-popup h2 {
+	font-size: 24px;
+}
+
+.avgrund-popup p {
+	margin: 10px 0 10px 0;
+	font-size: 16px;
+	line-height: 1.32;
+}
+
+.avgrund-popup a {
+	color: #7aa76d;
+	text-decoration: none;
+
+	-webkit-transition: 0.15s color ease;
+	   -moz-transition: 0.15s color ease;
+	    -ms-transition: 0.15s color ease;
+	     -o-transition: 0.15s color ease;
+	        transition: 0.15s color ease;
+}
+	.avgrund-popup a:hover {
+		color: #91cd85;
+	}
+
+.avgrund-popup small {
+	display: block;
+	margin-top: 15px;
+	padding-top: 15px;
+	color: #333;
+	font-size: 0.85em;
+	border-top: 1px dashed #ccc;
+
+	-webkit-text-size-adjust: none;
+}
+
+.avgrund-popup button {
+	border: 0px;
+	padding: 8px 10px;
+	margin: 5px 0px;
+	border-radius: 1px;
+
+	cursor: pointer;
+	color: #fff;
+	background: #7aa76d;
+	font-size: 15px;
+
+	outline: none;
+
+	-webkit-transition: 0.15s background ease;
+	   -moz-transition: 0.15s background ease;
+	    -ms-transition: 0.15s background ease;
+	     -o-transition: 0.15s background ease;
+	        transition: 0.15s background ease;
+}
+	.avgrund-popup button:hover {
+		background: #91cd85;
+	}
+	.avgrund-popup button:active {
+		background: #60895a;
+	}
+	.avgrund-popup button+button {
+		margin-left: 5px;
+	}
+
+.avgrund-popup .sharing {
+	margin-top: 50px;
+}
+
+.avgrund-popup button > a {
+    color: white;
+}
+
+.avgrund-popup button > a:hover {
+    color: white;
+}

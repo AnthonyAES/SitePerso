@@ -57,7 +57,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 800px;
-    background-color: #f7f0f0;
+    background-color: #393d3f;
 }
 
 section {
@@ -641,6 +641,7 @@ footer > p {
     height: 100%;
     min-height: 800px;
     box-sizing: border-box;
+    z-index: 24;
 }
 
 #s-portfolio > article {
@@ -654,7 +655,7 @@ footer > p {
     height: 30px;
     width: 100%;
     position: relative;
-    z-index: 15;
+    z-index: 26;
 }
 
 #nav-sub {
@@ -776,9 +777,9 @@ footer > p {
 }
 
 /* --------------- PAGE CONTACT --------------- */
-
 #s-contact h2 {
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 #s-contact > #contact > .content {
@@ -912,6 +913,8 @@ input[type="submit"]:hover {
     bottom:0px;
     height: 100%;
     width: 100%;
+    background-color: #f7f0f0;
+    padding-top: 30px;
 }
 
 #menulist {
@@ -923,6 +926,14 @@ input[type="submit"]:hover {
 }
 
 #s-portfolio > article.dontshow {
+    display: none;
+}
+
+h2.titres {
+    display: none;
+}
+
+p.link {
     display: none;
 }
 
@@ -1106,6 +1117,10 @@ input[type="submit"]:hover {
     .p-box > a > .container-img > img {
         width: 100%;
         height: auto;
+    }
+    
+    .p-box > a:after {
+        content: none!important;
     }
     
     #p-iv .overlay, #p-webd .overlay, #p-sitew .overlay {

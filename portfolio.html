@@ -37,16 +37,19 @@
         <!-- Typo -->
 		<link rel="stylesheet" href="css/font-awesome.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200i,200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         
         
         <!-- CSS -->
         <link rel="stylesheet" href="css/main.css" type="text/css">
-</svg>
+		<link rel="stylesheet" href="css/avgrund.css">
+		<link rel="stylesheet" href="css/demo.css">
+
     </head>
     
     
     <body>
-        <header>
+        <header class="avgrund-contents">
             <div id="top-social">
                 <div class="content">
                     <div id="mail">
@@ -105,12 +108,13 @@
                 </div>
         </header>
         
-        <section id="s-portfolio">
+        <section id="s-portfolio" class="avgrund-contents">
             <article id="p-iv">
                 <h2>Identité Visuelle</h2>
                 
                 <div class="p-box">
-                    <a href="https://www.behance.net/gallery/50887517/Identit-visuelle-KiliraCooper" target="_blank">
+                    <a id="modal-1">
+                        <h2 class="titres">Identité Visuelle pour Kilira Cooper</h2>
                     <div class="container-img">
                         <img src="images/portfolio/logokilira.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -124,7 +128,8 @@
                 </div>
                 
                 <div class="p-box">
-                    <a href="https://www.behance.net/gallery/50887727/Identit-visuelle-Razan" target="_blank">
+                    <a id="modal-2">
+                        <h2 class="titres">Identité Visuelle pour Razan</h2>
                     <div class="container-img">
                         <img src="images/portfolio/logorazan.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -138,7 +143,8 @@
                 </div>
                 
                 <div class="p-box">
-                    <a href="https://www.behance.net/gallery/50888121/Identit-visuelle-personelle" target="_blank">
+                    <a id="modal-3">
+                        <h2 class="titres">Identité Visuelle personnelle</h2>
                     <div class="container-img">
                         <img src="images/portfolio/logotblk.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -152,7 +158,8 @@
                 </div>
                 
                 <div class="p-box">
-                    <a href="https://www.behance.net/gallery/50888027/Pack-graphique-EYLReborn" target="_blank">
+                    <a id="modal-4">
+                        <h2 class="titres">Identité Visuelle pour EYL Reborn</h2>
                     <div class="container-img">
                         <img src="images/portfolio/logoeyl.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -166,7 +173,8 @@
                 </div>
                 
                 <div class="p-box">
-                    <a href="https://www.behance.net/gallery/50921847/Wallpaper-InfernalBrothers" target="_blank">
+                    <a id="modal-5">
+                        <h2 class="titres">Identité Visuelle pour Infernal Brothers</h2>
                     <div class="container-img">
                         <img src="images/portfolio/logoinfernal.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -184,7 +192,8 @@
                 <h2>Webdesign</h2>
                 
                 <div class="p-box">
-                    <a href="https://www.behance.net/gallery/50922335/Maquette-web-pour-le-foyerfr" target="_blank">
+                    <a id="modal-6">
+                        <h2 class="titres">Maquette web pour le-foyer.fr</h2>
                     <div class="container-img">
                         <img src="images/portfolio/maquettelefoyer.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -202,7 +211,7 @@
                 <h2>Site Web</h2>
                 
                 <div class="p-box">
-                    <a href="https://github.com/AnthonyAES/Projet1OFP" target="_blank">
+                    <a href="https://anthonyaes.github.io/Projet1OFP/h.html" target="_blank">
                     <div class="container-img">
                         <img src="images/portfolio/Projet1Mockup.png" width="275px" height="171px" alt="vignette projet 1">
                         <div class="overlay">
@@ -216,7 +225,7 @@
                 </div>
                 
                 <div class="p-box">
-                    <a href="https://github.com/AnthonyAES/ProjetNCAM" target="_blank">
+                    <a href="https://anthonyaes.github.io/projectNCAM/" target="_blank">
                     <div class="container-img">
                         <img src="images/portfolio/Projet2Mockup.png" width="275px" height="171px" alt="vignette projet 2">
                         <div class="overlay">
@@ -230,7 +239,7 @@
                 </div>
                 
                 <div class="p-box">
-                    <a href="https://github.com/AnthonyAES/GroupeACEM" target="_blank">
+                    <a href="https://anthonyaes.github.io/GroupeACEM/" target="_blank">
                     <div class="container-img">
                         <img src="images/portfolio/Projet3Mockup.png" width="275px" height="171px" alt="vignette projet 3">
                         <div class="overlay">
@@ -245,6 +254,20 @@
                 
             </article>
         </section>
+        <!-- Modal Box -->
+        <aside id="default-popup" class="avgrund-popup default-popup">
+            <h2></h2>
+            <p>
+                <a href="" target="_blank"><img src="" width="1920" height="1080"></a>
+            </p>
+            <p>
+            
+            </p>
+            <button onclick="javascript:closeDialog();">Fermer</button><button class="btn-bleu" type="button"><a href="https://www.behance.net/asautebinp3350" target="_blank">Behance</a></button><button class="btn-black" type="button"><a href="https://github.com/AnthonyAES/" target="_blank">Github</a></button>
+        </aside>
+        <!-- Fin Modal -->
+        
+        <div class="avgrund-cover"></div>
         
         <footer>
             <div id="button"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
@@ -254,5 +277,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/onclick.js"></script>
         <script src="js/portfolio.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="js/avgrund.js"></script>
     </body>
 </html>
